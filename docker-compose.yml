@@ -1,6 +1,6 @@
-Version : "3.3"
+version : "3.3"
 services :
   web :
-    build : abhi414/todo-app:latest
+    image : abhi414/todo-app:latest
     ports :
       - "8000:8000"
